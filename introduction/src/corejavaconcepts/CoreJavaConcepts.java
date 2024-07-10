@@ -81,6 +81,26 @@ public class CoreJavaConcepts {
 		     
 		     System.out.println(name2.contains("Suman"));
 		     
+		     //java strings 
+		     //In java strings is a object 
+		     
+		     String Personname = "Ajay Sharma ";
+		    String Objectname = "Ajay Sharma";
+		    //Same memory will be allocated to both the objects as content is same 
+		    
+		    String myname = new String("Gaurav");
+		    String Yourname=new String("Your name is Jyotika Sharma");
+		    
+		    //Print string in reverse order
+		    
+		    for(int i=Yourname.length()-1 ;i>=0 ; i-- )
+		    {
+		    	System.out.println(Yourname.charAt(i));
+		    }
+		    
+		    
+		     
+		     
 
 	}
 
