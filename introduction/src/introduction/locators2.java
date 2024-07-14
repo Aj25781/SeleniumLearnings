@@ -32,15 +32,6 @@ public class locators2 {
 		
 		
 		
-		
-		
-		
-		
-		
-		
-		
-		
-		
 	}
 	
 }
