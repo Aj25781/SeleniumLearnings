@@ -17,7 +17,9 @@ public class Dynamicdropdown {
 		driver.findElement(By.id("ctl00_mainContent_ddl_originStation1_CTXT")).click(); 
 		driver.findElement(By.xpath("//a[@value ='DED']")).click();
 		Thread.sleep(2000);
-		driver.findElement(By.xpath("(//a[@value ='IXJ'])[2]")).click();
+		//driver.findElement(By.xpath("(//a[@value ='IXJ'])[2]")).click();// another way to work with dynamic dropdowns 
+		
+		driver.findElement(By.xpath("//div[@id='ctl00_mainContent_ddl_destinationStation1_CTNR'] //a[@value='IXJ']")).click();
 		
 		
 
