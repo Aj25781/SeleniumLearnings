@@ -20,6 +20,8 @@ public class IframeDemo {
 		Actions a = new Actions(driver);
 		a.dragAndDrop(source, destination).build().perform();
 		
+		driver.switchTo().defaultContent();
+		
 	}
 
 }
